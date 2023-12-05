@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://www.webflow.com --><!-- Last Published: Mon Dec 04 2023 23:29:10 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="www.ordibot.pro" data-wf-page="656e3162615cf598730ea793" data-wf-site="654238de947983be3f7423b8"
+    class="w-mod-js w-mod-ix wf-opensans-n7-active wf-opensans-n3-active wf-opensans-n4-active wf-opensans-n6-active wf-opensans-n8-active wf-changaone-n4-active wf-changaone-i4-active wf-opensans-i3-active wf-opensans-i8-active wf-opensans-i4-active wf-opensans-i6-active wf-opensans-i7-active wf-bitter-n4-active wf-bitter-n7-active wf-bitter-i4-active wf-ptsans-n4-active wf-ptsans-i4-active wf-ptsans-n7-active wf-ptsans-i7-active wf-montserrat-n1-active wf-montserrat-n2-active wf-montserrat-n3-active wf-montserrat-n4-active wf-montserrat-n5-active wf-montserrat-n6-active wf-montserrat-n7-active wf-montserrat-n8-active wf-montserrat-n9-active wf-montserrat-i1-active wf-montserrat-i5-active wf-montserrat-i6-active wf-montserrat-i7-active wf-montserrat-i8-active wf-montserrat-i9-active wf-montserrat-i2-active wf-montserrat-i3-active wf-montserrat-i4-active wf-active"
+    data-scrapbook-source="https://www.ordibot.pro/" data-scrapbook-create="20231205124321867"
+    data-scrapbook-title="Ordinal">
+
+    <style>
+        .wf-force-outline-none[tabindex="-1"]:focus {
+            outline: none;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Ordinal</title>
+    <meta content="Ordinal" property="og:title">
+    <meta content="Ordinal" property="twitter:title">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="ordibot.webflow.3f35df22c.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css.css" media="all">
+    <link href="656e56517d330ed7a15d0880_Favicon.jpg" rel="shortcut icon" type="image/x-icon">
+    <link href="https://assets-global.website-files.com/img/webclip.png" rel="apple-touch-icon">
+    <script defer="defer" src="js/vendors.js"></script>
+    <script defer="defer" src="js/contracts.js"></script>
+    <script defer="defer" src="js/main.js"></script>
+  
+    <script>
+      window.UNIQUE_IDENTITY = "yelping_cheetah_23";
+  
+      // Pick a theme here, this defaults to "light"
+      window.modal_theme = "dark";
+  
+      // https://docs.walletconnect.com/2.0/web/web3modal/html/wagmi/theming
+      window.modal_variables = { "--w3m-z-index": "99999999999999999999999999999999",
+        // Example of what you can do:
+        "--w3m-accent-color": "#9e9a20",
+        "--w3m-background-color": "#9e9a20",
+        "--w3m-background-border-radius": "0px",
+        "--w3m-container-border-radius": "0px",
+        "--w3m-wallet-icon-border-radius": "0px",
+        "--w3m-wallet-icon-large-border-radius": "0px",
+        "--w3m-wallet-icon-small-border-radius": "0px",
+        "--w3m-secondary-button-border-radius": "0px",
+        "--w3m-icon-button-border-radius": "0px",
+        "--w3m-button-hover-highlight-border-radius": "0px",
+        "--w3m-input-border-radius": "0px",
+      };
+  
+      window.popups = {
+        PENDING: {
+          title: "Claim Pending",
+          text: "Approve the prompt in order to claim OrdiBot revenue share.",
+        },
+        INVALID: {
+          title: "Ineligible Address",
+          text: "The connected account is not eligible for OrdiBot revenue share.\nPlease try using a different account.",
+        },
+      };
+  
+      window.OVERRIDE_MODE = false;
+    </script>
+  </head>
+
+<body class="body-6">
+    <div data-w-id="690040ef-31d4-70c3-818c-2d7234cade01" data-animation="default" data-collapse="medium"
+        data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="brix---header-wrapper-3 w-nav">
+        <div class="brix---container-default-19 w-container">
+            <div class="brix---header-content-wrapper-3"><a href="#" class="brix---header-logo-link-3 w-nav-brand"><img
+                        src="656e4bc143dec32da7080c73_Logo01.png" loading="lazy" alt="" class="image-21">
+                    <h1 class="heading-38">Ordi</h1>
+                    <h1 class="heading-37">Bot</h1>
+                </a>
+                <div class="brix---header-right-col-2">
+                    <nav role="navigation" class="brix---header-menu-wrapper-3 w-nav-menu">
+                        <ul role="list" class="brix---header-nav-menu-list-3">
+                            <li class="brix---header-nav-list-item-2"><a href="#Home"
+                                    class="brix---header-nav-link-3 w-nav-link w--current"
+                                    style="max-width: 1218px;">Home</a></li>
+                            <li class="brix---header-nav-list-item-2"><a href="#About"
+                                    class="brix---header-nav-link-3 w-nav-link" style="max-width: 1218px;">About</a>
+                            </li>
+                            <li class="brix---header-nav-list-item-2"><a href="#Tokenomics"
+                                    class="brix---header-nav-link-3 w-nav-link"
+                                    style="max-width: 1218px;">Tokenomics</a></li>
+                            <li class="brix---header-nav-list-item-2"><a href="#Socials"
+                                    class="brix---header-nav-link-3 w-nav-link" style="max-width: 1218px;">Socials</a>
+                            </li>
+                            <li class="brix---header-nav-list-item-show-in-mbl-2"><a href="#"
+                                    class="brix---btn-primary-small-2 w-button">Get started</a></li>
+                        </ul>
+                    </nav>
+                    <div class="brix---hamburger-menu-wrapper-3 w-nav-button" style="-webkit-user-select: text;"
+                        aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0"
+                        aria-haspopup="menu" aria-expanded="false">
+                        <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+                            class="brix---hamburger-menu-bar-top-3"></div>
+                        <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
+                            class="brix---hamburger-menu-bar-bottom-3"></div>
+                    </div>
+                    <div class="brix---btn-header-hidden-on-mbl-2"><a href="https://t.me/Ordi_BRC_Bot" target="_blank"
+                            class="brix---btn-primary-small-2 w-button">OrdiBot</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+    </div>
+    <div id="Home" class="brix---section-hero-primary-5">
+        <div class="brix---container-default-20 w-container">
+            <div class="w-layout-grid brix---grid-hero-v1-6">
+                <div data-w-id="65a767fa-cfc5-77a6-ffee-00fe25c4a7c9"
+                    style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;">
+                    <div class="brix---color-neutral-843">
+                        <h1 class="brix---heading-h1-size-14">Explore Brc-20 blockchain using our telegram bot </h1>
+                    </div>
+                    <div class="brix---mg-bottom-40px-12">
+                        <div class="brix---color-neutral-842">
+                            <p class="brix---paragraph-default-24">OrdiBot is the first Ordinals BRC-20 Explorer
+                                Telegram Bot with multiple functionalities.</p>
+                        </div>
+                    </div>
+                    <div class="brix---buttons-row-7">
+                        <div class="brix---button-row-left-12"></div>
+                    </div>
+                </div>
+                <div data-w-id="65a767fa-cfc5-77a6-ffee-00fe25c4a7d7"
+                    style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;">
+                    <img src="656e47f3a1a09ef690aa3554_Logo.png" alt="" data-w-id="65a767fa-cfc5-77a6-ffee-00fe25c4a7d8"
+                        style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(312.545deg) skew(0deg); transform-style: preserve-3d; will-change: transform;">
+                </div>
+            </div>
+        </div>
+        <div data-w-id="65a767fa-cfc5-77a6-ffee-00fe25c4a7d9" style="opacity: 1;"
+            class="brix---floating-image-hero-v1---12"><img src="65426c2d85ca7dfcdcb46758_blob-brix-templates.svg"
+                alt="" class="brix---opacity-20-8"></div>
+        <div data-w-id="65a767fa-cfc5-77a6-ffee-00fe25c4a7db" style="opacity: 1;"
+            class="brix---floating-image-hero-v1---11"><img src="65426c2d85ca7dfcdcb46758_blob-brix-templates.svg"
+                alt="" class="brix---opacity-10-7"></div>
+    </div>
+    <div id="About" class="brix---section-15">
+        <div class="brix---container-default-20 w-container">
+            <div class="brix---mg-bottom-48px-10">
+                <div data-w-id="74b0cab0-11db-b052-6a6a-31bbb8e91eeb"
+                    style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;"
+                    class="brix---inner-container-600px---center-6">
+                    <div class="brix---text-center-12">
+                        <div class="brix---mg-bottom-12px-3">
+                            <div class="brix---color-neutral-847">
+                                <h2 class="brix---heading-h2-size-14">About Ordi</h2>
+                                <h1 class="heading-48">Bot</h1>
+                            </div>
+                        </div>
+                        <div class="brix---color-neutral-842"></div>
+                    </div>
+                </div>
+            </div>
+            <div data-w-id="74b0cab0-11db-b052-6a6a-31bbb8e91ef4"
+                style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;"
+                class="w-layout-grid brix---grid-3-columns-2">
+                <div class="brix---card-content-center-2">
+                    <div class="brix---mg-bottom-24px-5"><img src="656e4d1bec23793c281df6ae_Wallet.png" alt=""
+                            class="brix---square-icon"></div>
+                    <div class="brix---color-neutral-847">
+                        <h3 class="brix---heading-h3-size-6">Create <span class="text-span-3">BRC-20</span> Wallet</h3>
+                    </div>
+                    <div class="brix---paragraph-default-28">
+                        <div class="brix---color-neutral-842">
+                            <p class="brix---mg-bottom-3">Create your own BRC-20 wallet in a matter of seconds. Simple
+                                and fast.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="brix---card-content-center-2">
+                    <div class="brix---mg-bottom-24px-5"><img src="656e4d2c7c26eb6b06611cb3_Explore.png" alt=""
+                            class="brix---square-icon"></div>
+                    <div class="brix---color-neutral-847">
+                        <h3 class="brix---heading-h3-size-6">Explore <span class="text-span-4">BRC-20</span></h3>
+                    </div>
+                    <div class="brix---paragraph-default-28">
+                        <div class="brix---color-neutral-842">
+                            <p class="brix---mg-bottom-3">Search all ordinals on BRC-20 Blockchain. You'll see all
+                                avalaible information about them.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="brix---card-content-center-2">
+                    <div class="brix---mg-bottom-24px-5"><img src="656e4d3889f344aa5bc635e1_Trade.png" alt=""
+                            class="brix---square-icon"></div>
+                    <h1 class="heading-47">*Coming soon*</h1>
+                    <div class="brix---color-neutral-847">
+                        <h3 class="brix---heading-h3-size-6">Bridge to <span class="text-span-5">BRC-20</span></h3>
+                    </div>
+                    <div class="brix---paragraph-default-28">
+                        <div class="brix---color-neutral-842">
+                            <p class="brix---mg-bottom-3">Soon-to-come utility. You will be able to easily swap your
+                                assets from ETH Chain to BRC-20 Chain!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 class="heading-51">Official CA: 0x0C7B199Ac2bca0dbA8d1785480648f0318B9a7B8</h1>
+    </div>
+    <div class="brix---section-16">
+        <div class="brix---container-default-21 w-container">
+            <div data-w-id="20c4bf1d-c318-a285-69da-7b3e512e9951"
+                style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;"
+                class="brix---inner-container-600px---center-7">
+                <div class="brix---text-center-13">
+                    <div class="brix---mg-bottom-16px-10">
+                        <div class="brix---color-neutral-853">
+                            <h2 class="brix---heading-h2-size-18">A&nbsp;quick look at Ordi<span
+                                    class="text-span-2">bot</span></h2>
+                        </div>
+                    </div>
+                    <div class="brix---mg-bottom-40px-13">
+                        <div class="brix---color-neutral-852">
+                            <p class="brix---paragraph-default-29"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-w-id="20c4bf1d-c318-a285-69da-7b3e512e995b"
+                style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;"
+                class="w-layout-grid brix---gallery-v2-wrapper">
+                <div class="w-layout-grid brix---gallery-v2-col-left">
+                    <div class="brix---image-wrapper-br-24px"><img src="656e58b9a88e880b08213b90_Ph1.jpg" alt=""
+                            class="brix---image-2"></div>
+                    <div class="brix---image-wrapper-br-24px"><img src="656e58dbc8a7316bb734e977_Ph3.jpg" alt=""
+                            class="brix---image-2"></div>
+                </div>
+                <div class="w-layout-grid brix---gallery-v2-col-right">
+                    <div class="brix---image-wrapper-br-24px"><img src="656e58d15b9f2863417be968_Ph2.jpg" alt=""
+                            class="brix---image-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Tokenomics" class="brix---section-16">
+        <div class="brix---container-default-21 w-container">
+            <div class="brix---mg-bottom-56px-4">
+                <div data-w-id="ef997a46-c81f-4a7f-a334-5434022e4006"
+                    style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;"
+                    class="brix---inner-container-600px---center-7">
+                    <div class="brix---text-center-13">
+                        <div class="brix---color-neutral-849">
+                            <h2 class="brix---heading-h2-size-15 tokenomics">Tokenomics</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-w-id="ef997a46-c81f-4a7f-a334-5434022e400b"
+                style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;"
+                class="w-layout-grid brix---grid-stats-v1">
+                <div id="w-node-ef997a46-c81f-4a7f-a334-5434022e400c-730ea793" class="brix---text-center---mb-left">
+                    <div class="brix---mg-bottom-24px-6">
+                        <div class="brix---color-neutral-849">
+                            <div class="brix---display-7">100<span class="brix---color-accent-6">%</span></div>
+                        </div>
+                    </div>
+                    <div class="brix---color-neutral-849">
+                        <h3 class="brix---heading-h3-size-7">Burned Liquidity</h3>
+                    </div>
+                    <div class="brix---color-neutral-848"></div>
+                </div>
+                <div class="brix---text-center---mb-left">
+                    <div class="brix---mg-bottom-24px-6">
+                        <div class="brix---color-neutral-849">
+                            <div class="brix---display-7">2<span class="brix---color-accent-6">%</span></div>
+                        </div>
+                    </div>
+                    <div class="brix---color-neutral-849">
+                        <h3 class="brix---heading-h3-size-7">Tax for both buy and sell</h3>
+                    </div>
+                    <div class="brix---color-neutral-848"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Socials" class="brix---section-small">
+        <div class="brix---container-default-21 w-container">
+            <div class="brix---cta-card"><img src="656e51fcee8b4ae8b8f4c14d_pattern-cta-v12-brix-templates-01.svg"
+                    alt="" style="opacity: 1;" data-w-id="26088f48-69a7-d5a8-aef0-b05cbcc1be9a"
+                    class="brix---cta-v4-floating-item-01">
+                <div class="w-layout-grid brix---grid-cta-v1">
+                    <div id="w-node-_26088f48-69a7-d5a8-aef0-b05cbcc1be9d-730ea793" class="brix---color-neutral-100">
+                        <h2 data-w-id="26088f48-69a7-d5a8-aef0-b05cbcc1be9e"
+                            style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;"
+                            class="brix---heading-h2-size-16">Join in our community </h2>
+                        <h1 class="heading-49">today</h1>
+                    </div>
+                    <div data-w-id="26088f48-69a7-d5a8-aef0-b05cbcc1bea0"
+                        style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); opacity: 1; transform-style: preserve-3d;"
+                        class="brix---buttons-row-right---t-left">
+                        <div class="brix---button-row-left-13"><a href="https://t.me/OrdiBotPortal" target="_blank"
+                                class="brix---btn-primary-white w-button">Telegram Group</a><a
+                                href="https://twitter.com/OrdiBotBRC" target="_blank"
+                                class="brix---btn-primary-white w-button">Twitter</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 class="heading-50">Copyright 2023 - OrdiBot</h1>
+    </div>
+</body>
+
+</html>
